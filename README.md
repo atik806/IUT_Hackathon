@@ -2,7 +2,7 @@
 
 Full-stack office energy monitoring system with a NestJS backend (REST API + Discord bot) and a Next.js dashboard. Simulates 15 devices (fans + lights) across 3 rooms, tracks power usage, and detects anomalies.
 
-![System Overview](system-overview.png)
+![System Overview](image2.png)
 
 ---
 
