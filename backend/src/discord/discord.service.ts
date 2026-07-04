@@ -138,7 +138,7 @@ export class DiscordService implements OnApplicationBootstrap, OnApplicationShut
   }
 
   private async humanize(context: string): Promise<string> {
-    if (!env.groqApiKey) return this.fallbackTemplate(context);
+    if (!env.groqApiKey || env.groqApiKey.startsWith('your-')) return this.fallbackTemplate(context);
 
     try {
       const { default: Groq } = await import('groq-sdk');
