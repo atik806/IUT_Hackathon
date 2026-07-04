@@ -2,7 +2,7 @@
 
 Full-stack office energy monitoring system with a NestJS backend (REST API + Discord bot) and a Next.js dashboard. Simulates 15 devices (fans + lights) across 3 rooms, tracks power usage, and detects anomalies.
 
-![System Overview](image2.png)
+![System Overview](system-overview.png)
 
 ---
 
@@ -147,8 +147,8 @@ The bot proactively posts alerts to the configured channel when devices are on a
 | **Power Meter** | Current wattage, per-room breakdown, daily kWh |
 | **Active Alerts** | After-hours and continuous-on warnings |
 
-![Dashboard Screenshot](image.png)
-![Dashboard Screenshot](image1.png)
+![Wokwi Design](wokwi-design.png)
+![System Diagram](system-diagram.png)
 
 ---
 
