@@ -147,9 +147,10 @@ The bot proactively posts alerts to the configured channel when devices are on a
 | **Power Meter** | Current wattage, per-room breakdown, daily kWh |
 | **Active Alerts** | After-hours and continuous-on warnings |
 
-Cuircit Diagram:
-![Wokwi Design](wokwi-design.png)
 System Diagram:
+![Wokwi Design](wokwi-design.png)
+
+Cuircit Diagram:
 ![System Diagram](system-diagram.png)
 
 ---
